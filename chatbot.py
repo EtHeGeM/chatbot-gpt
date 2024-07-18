@@ -13,7 +13,7 @@ import playsound #version 1.2.2
 # Function to get response from ChatGPT
 def get_chatgpt_response(prompt):
     
-    client = OpenAI(api_key="sk-proj-RjYq9tVIP9gOCzkPmsKUT3BlbkFJhu636FMt0bxCKghFqBCv")
+    client = OpenAI(api_key="api-key")
 
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
